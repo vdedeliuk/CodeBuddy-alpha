@@ -56,5 +56,11 @@
     server: {
       port: 3000,
       open: true,
+      allowedHosts: [
+        'codebuddy-alpha.onrender.com',
+        '.onrender.com',
+        'code-buddy.app',
+        'www.code-buddy.app',
+      ],
     },
   });
